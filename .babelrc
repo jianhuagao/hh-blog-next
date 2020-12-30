@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    ["styled-components"],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@": "./src",
+          "@c": "./src/components",
+          "@p": "./src/pages"
+        }
+      }
+    ]
+  ]
+}

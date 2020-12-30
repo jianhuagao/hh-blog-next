@@ -1,0 +1,26 @@
+{
+  "name": "hh-blog-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "antd": "^4.9.4",
+    "next": "10.0.4",
+    "normalize.css": "^8.0.1",
+    "rc-queue-anim": "^1.8.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "file-loader": "^6.2.0",
+    "module-resolver": "^1.0.0"
+  }
+}
